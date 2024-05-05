@@ -1,0 +1,675 @@
+@media  (min-width: 1280px){
+    .nav-btn-mobile{
+        display: none;
+    }
+    .ban-mobile{
+        display: none;
+    }
+    .fed-mobile{
+        display: none;
+    }
+}
+@media  (max-width: 1280px) {
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+    body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    
+    .nav-bar{
+        display: flex;
+        align-items: center;
+        width: 375px;
+        height: 72px;
+        justify-content: center;
+    }
+    .nav-info{
+        display: flex;
+        width: Fill (375px)px;
+        height: Hug (40px)px;
+        padding: 0px 12px 0px 16px;
+        gap: 0px;
+        opacity: 0px;
+        align-items: center;
+        justify-content: space-between; 
+    }
+    .nav-item{
+        display:none;
+    }
+    .nav-btn{
+        display: none;
+    }
+    .nav-btn-mobile img{
+        width: Hug (40px)px;
+        height: Hug (40px)px; 
+    }
+
+    .banner{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        width: Fill (375px)px;
+        height: Hug (906px)px;
+        padding: 64px 0px 64px 0px;
+        gap: 64px;
+        opacity: 0px;
+    }
+    .banner-top{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        width: Fill (375px)px;
+        height: Hug (372px)px;
+        padding: 0px 16px 0px 16px;
+        gap: 32px;
+        opacity: 0px;
+    }
+    .banner h1{
+        font-family: Inter;
+        font-size: 36px;
+        font-weight: 500;
+        line-height: 44px;
+        letter-spacing: -0.02em;
+        text-align: left;
+        color: #101828;
+        width: 343px;
+        height: 132px;
+        gap: 0px;
+        opacity: 0px;
+    }
+    .banner h2{
+        font-family: Inter;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 28px;
+        text-align: left;
+        color:  #475467;
+        width: 343px;
+        height: 84px;
+        gap: 0px;
+        opacity: 0px;
+    }
+    .banner h3{
+        width: 80px;
+        height: 24px;
+        gap: 0px;
+        opacity: 0px;        
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 24px;
+    }
+    .ban-btn{
+        display: flex;
+        flex-direction: column-reverse;
+        width: Hug (304px)px;
+        height: Hug (60px)px;
+        gap: 12px;
+        opacity: 0px;
+        
+    }
+    .banner button:first-child{
+        display: flex;
+        justify-content: center;
+        width: 343px;
+        height: Hug (48px)px;
+        padding: 12px 20px 12px 20px;
+        gap: 8px;
+        border-radius: 8px;
+        border: 1px solid #D0D5DD;
+        box-shadow: 0px 1px 2px 0px #1018280D;
+        opacity: 0px;
+    }
+    .banner button:last-child{
+        display: flex;
+        justify-content: center;
+        width: Fill (343px)px;
+        height: Hug (48px)px;
+        padding: 12px 20px 12px 20px;
+        gap: 8px;
+        border-radius: 8px ;
+        opacity: 0px;
+        box-shadow: 0px 1px 2px 0px #1018280D;
+        background: #444CE7;
+        color:#FFFFFF;
+    }
+    .ban-desktop{
+        display: none;
+    }
+
+    .highlight{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: Fill (375px)px;
+        height: Hug (746px)px;
+        padding: 64px 0px 64px 0px;
+        gap: 48px;
+        opacity: 0px;
+    }
+    .highlight img{
+        display: none;
+    }
+    .highlight-item{
+        display: flex;
+        width: Fill (375px)px;
+        height: Hug (618px)px;
+        padding: 0px 16px 0px 16px;
+        gap: 32px;
+        opacity: 0px;         
+    }
+    .highlight-txt{
+        display: flex;
+        flex-direction: column;
+        width: Fill (343px)px;
+        height: Hug (618px)px;
+        gap: 32px;
+        opacity: 0px;
+        align-items: center;
+    }
+    .highlight h1{
+        font-family: Inter;
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 38px;
+        text-align: left;
+        color: #101828;
+        width: 343px;
+        height: 114px;
+        gap: 0px;
+        opacity: 0px;
+    }
+    .highlight p{
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+        width: 343px;
+        height: 472px;
+        gap: 0px;
+        opacity: 0px;        
+        color: #475467;
+    }
+    .box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: Fill (375px);
+        height: Hug (1,802px)px;
+        padding: 64px 0px 64px 0px;
+        gap: 48px;
+        opacity: 0px;
+    }
+    .title{
+        display: flex;
+        align-items: center;
+        width: 375px;
+        height: Hug (148px)px;
+        padding: 0px 16px 0px 16px;
+        gap: 32px;
+        opacity: 0px;
+    }
+    .title-txt{
+        display: flex;
+        flex-direction: column;
+        width: Fill (343px)px;
+        height: Hug (148px)px;
+        gap: 48px;
+        opacity: 0px;
+        
+    }
+    .title h1{
+        font-family: Inter;
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 38px;
+        text-align: left;
+        color: #101828;
+        width: 343px;
+        height: 76px;
+        gap: 0px;
+        opacity: 0px;
+    }
+    .title p{
+        font-family: Inter;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 28px;
+        text-align: left;
+        color: #475467;
+        width: 343px;
+        height: 56px;
+        gap: 0px;
+        opacity: 0px;
+              
+    }
+    .prices{
+        display: flex;
+        flex-direction: column;
+        width:343px;
+        height: Hug (1,478px)px;
+        gap: 16px;
+        opacity: 0px; 
+        align-items: center;       
+    }
+    .price-card{
+        display: flex;
+        flex-direction: column;
+        width: 343px;
+        height: Hug (482px)px;
+        gap: 0px;
+        border-radius: 16px;
+        background: #FFFFFF;
+        border: 1px solid #EAECF0;
+        box-shadow: 0px 4px 6px -2px #10182808;
+        box-shadow: 0px 12px 16px -4px #10182814;
+    }
+    .price-txt{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: Fill (295px)px;
+        height: Hug (114px)px;
+        gap: 8px;
+        opacity: 0px;        
+    }
+    .price-txt h1{
+        font-family: Inter;
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 44px;
+        letter-spacing: -0.02em;
+        text-align: center;
+        color:#101828; 
+        width: 295px;
+        height: 44px;
+        gap: 0px;
+        opacity: 0px;   
+    }
+    .price-txt h2{
+        font-family: Inter;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 30px;
+        text-align: center;
+        color: #3538CD; 
+        width: 295px;
+        height: 30px;
+        gap: 0px;
+        opacity: 0px;        
+    }
+    .price-txt h3{
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: center;
+        color: #475467;
+        width: 295px;
+        height: 24px;
+        gap: 0px;
+        opacity: 0px;        
+    }
+    .price-info{
+        display: flex;
+        flex-direction: column;
+        width: Fill (295px)px;
+        height: Hug (184px)px;
+        gap: 16px;
+        opacity: 0px;      
+    }
+    .price-info p{
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+        width: 259px;
+        height: 24px;
+        gap: 0px;
+        opacity: 0px;        
+        color: #475467;
+    }
+    .p-info-line{
+        display: flex;
+        width: Fill (295px)px;
+        height: Hug (24px)px;
+        gap: 12px;
+        opacity: 0px;
+    }
+    .price-btn{
+        display: flex;
+        justify-content: center;
+        width: Fill (343px)px;
+        height: Hug (104px)px;
+        padding: 24px 24px 32px 24px;
+        gap: 24px;
+        opacity: 0px;
+        background: #F9FAFB;
+    }
+    .price-btn h3{
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 24px;
+        text-align: left;
+        color: #FFFFFF;
+        width: 89px;
+        height: 24px;
+        gap: 0px;
+        opacity: 0px;        
+    }
+    .price-btn button{
+        display: flex;
+        justify-content: center;
+        width: Fill (295px)px;
+        height: Hug (48px)px;
+        padding: 12px 20px 12px 20px;
+        gap: 8px;
+        border-radius: 8px;
+        opacity: 0px;        
+        background: #444CE7;
+        box-shadow: 0px 1px 2px 0px #1018280D;
+        border: none;
+    }
+    .board{
+        display: flex;
+        flex-direction: column;
+        width: 375px;
+        height: Hug (720px)px;
+        padding: 0px 16px 0px 16px;
+        gap: 48px;
+        opacity: 0px; 
+        align-items: center;
+    }
+    .board-item{
+        display: flex;
+        flex-direction: column;
+        width: Fill (343px)px;
+        height: Hug (720px)px;
+        gap: 32px;
+        opacity: 0px;        
+    }
+    .board-info{
+        display: flex;
+        flex-direction: column;
+        width: Fill (343px)px;
+        height: Hug (156px)px;
+        gap: 20px;
+        opacity: 0px;
+        align-items: center;
+        
+    }
+    .board-item h1{
+        font-family: Inter;
+        font-size: 48px;
+        font-weight: 600;
+        line-height: 60px;
+        letter-spacing: -0.02em;
+        text-align: center;
+        color: #444CE7;
+        width: 343px;
+        height: 60px;
+        gap: 0px;
+        opacity: 0px;        
+    }
+    .board-item h2{
+        font-family: Inter;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 28px;
+        text-align: center;
+        color: #101828;
+        width: 343px;
+        height: 28px;
+        gap: 0px;
+        opacity: 0px;
+    }
+    .board-item p{
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: center;
+        color: #475467;
+        width: 343px;
+        height: 48px;
+        gap: 0px;
+        opacity: 0px;        
+    }
+    .fed-desktop{
+        display: none;
+        width: Fill (375px)px;
+        height: Hug (280px)px;
+        padding: 0px 16px 0px 16px;
+        gap: 0px;
+        opacity: 0px;
+        
+    }
+    .contact{
+        width: Fill (375px)px;
+        height: Hug (476px)px;
+        padding: 64px 0px 64px 0px;
+        gap: 48px;
+        opacity: 0px;        
+        align-items: center;
+        justify-content: center;
+    }
+    .conatct-card{
+        display: flex;
+        flex-direction: column;
+        width: 375px;
+        height: Hug (148px)px;
+        padding: 0px 16px 0px 16px;
+        gap: 32px;
+        opacity: 0px;
+        align-items: center;
+    }
+    .contact-title{
+        display: flex;
+        flex-direction: column;
+        width: Fill (343px)px;
+        height: Hug (148px)px;
+        gap: 16px;
+        opacity: 0px;
+    }
+    .contact-title h1{
+        font-family: Inter;
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 38px;
+        text-align: left;
+        color: #101828;
+        width: 343px;
+        height: 76px;
+        gap: 0px;
+        opacity: 0px;        
+    }
+    .contact-title p{
+        font-family: Inter;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 28px;
+        text-align: left;
+        color:#475467 ;
+        width: 343px;
+        height: 56px;
+        gap: 0px;
+        opacity: 0px;        
+    }
+    .contact-item {
+        display: flex;
+        flex-direction: column;
+        width: Fill (343px)px;
+        height: Hug (152px)px;
+        gap: 40px;
+        opacity: 0px;
+    }
+    .contact-info{
+        display: flex;
+        width: Fill (343px)px;
+        height: Hug (56px)px;
+        gap: 16px;
+        opacity: 0px;
+    }
+    .contact-info-title{
+        display: flex;
+        width: Fill (303px)px;
+        height: Hug (56px)px;
+        gap: 4px;
+        opacity: 0px;
+    }
+    .contact-info h1{
+        font-family: Inter;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 28px;
+        text-align: left;
+        width: 303px;
+        height: 28px;
+        gap: 0px;
+        opacity: 0px;        
+        color:#101828;
+    }
+    .contact-info p{
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+        width: 303px;
+        height: 24px;
+        gap: 0px;
+        opacity: 0px;        
+        color:#475467;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        width: Fill (375px)px;
+        height: Hug (400px)px;
+        padding: 48px 0px 48px 0px;
+        gap: 48px;
+        opacity: 0px;        
+        align-items: center;
+    }
+    .footer-header{
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        width:375px;
+        height: Hug (160px)px;
+        padding: 0px 16px 0px 16px;
+        gap: 32px;
+        opacity: 0px;
+    }
+    .footer-top{
+        display:flex;
+        flex-direction: column;     
+    }
+    .top-title{
+        display: flex;
+        justify-content: flex-start;
+        width: Hug (142px)px;
+        height: Hug (32px)px;
+        gap: 10px;
+        opacity: 0px;
+    }
+    .top-info{
+        display: flex;
+        width: Fill (1,216px)px;
+        height: Hug (24px)px;
+        gap: 32px;
+        opacity: 0px;
+    }
+    .top-info div{
+        display: flex;
+        flex-direction: column;
+        width: 155.5px;
+        height: Hug (96px)px;
+        gap: 16px;
+        opacity: 0px;
+    }
+    .footer-top h1{ 
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 24px;
+        text-align: left;
+        width: 43px;
+        height: 24px;
+        gap: 0px;
+        opacity: 0px;        
+        color: #FFFFFF;
+    }
+    .footer-top span{
+        color: #6172F3;
+    }
+    .footer-top p{
+        width: 46px;
+        height: 24px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 24px;
+        text-align: left;
+        color: #EAECF0;
+    }
+    .footer-footer{
+        display: flex;
+        width: Fill (375px)px;
+        height: Hug (96px)px;
+        padding: 0px 16px 0px 16px;
+        gap: 32px;
+        opacity: 0px;
+    }
+    .footer-bottom{
+        display: flex;
+        flex-direction: column-reverse;
+        width: 343px;
+        height: Hug (96px)px;
+        padding: 32px 0px 0px 0px;
+        gap: 16px;
+        border-top: 1px solid #475467;
+        opacity: 0px;
+    }
+    .footer-bottom h1{
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+        color: #D0D5DD;
+        width: 343px;
+        height: 24px;
+        gap: 0px;
+        opacity: 0px;        
+    }
+    .bottom-info p{
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+        color: #D0D5DD;
+        width: 61px;
+        height: 24px;
+        gap: 0px;
+        opacity: 0px;
+    }
+   
+    
+    
+
+
+
+  }
